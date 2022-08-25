@@ -3,7 +3,7 @@ package convertidor.demo;
 public class RespuestaConvertidor {
     
     private Double  Pesos;
-    private Double dolar;
+    private Double Dolar;
 
     public Double getPesos(){
         return Pesos;
@@ -14,10 +14,10 @@ public class RespuestaConvertidor {
     }
 
     public Double getDolar(){
-        return dolar;
+        return Dolar;
     }
 
     public void setDolar(Double dolar) {
-        this.dolar = dolar;
+        this.Dolar = Dolar;
     }
 }
